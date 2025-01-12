@@ -29,7 +29,7 @@ Commands:
 
 `./aios-cli models list`
 #Found 1 models downloaded locally
-#  hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf
+#hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf
 
 Exemple
 `./aios-cli infer --model hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf --prompt "Explique comment gagner des points sur Hive."`
