@@ -31,7 +31,7 @@ Commands:
 
 #Found 1 models downloaded locally
 
-hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf
+`hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf`
 
 Exemple
 
