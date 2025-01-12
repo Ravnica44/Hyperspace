@@ -58,26 +58,37 @@ Commands:
 ````
 
 `./aios-cli hive login`
+
 #Using locally saved keys
+
 #Authenticated successfully!
 
 `./aios-cli hive whoami`
+
 #Public: ********************************************
+
 #Private: ********************************************
 
 `./aios-cli hive registered`
+
 #Found 1 models registered on hive
+
 # hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf
 
 `./aios-cli hive select-tier 3`
+
 #Successfully running on tier: 3
 
 `./aios-cli hive points`
+
 #Points: ********
+
 #Multiplier: 2.00
 
 `./aios-cli version`
+
 #Version: 0.1.6
 
 `./aios-cli hive listen`
+
 #Logs
