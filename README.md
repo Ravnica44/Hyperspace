@@ -11,7 +11,7 @@ https://github.com/hyperspaceai/aios-cli
 
 `nano priv.key`
 
-
+````
 Usage: aios-cli [OPTIONS] <COMMAND>
 
 Commands:
@@ -25,16 +25,17 @@ Commands:
   hive         Run commands using the Hive servers
   version      Check the curent version
   help         Print this message or the help of the given subcommand(s)`
+````
 
 `./aios-cli models list`
 #Found 1 models downloaded locally
-  hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf
+#  hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf
 
 Exemple
-./aios-cli infer --model hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf --prompt "Explique comment gagner des points sur Hive."`
+`./aios-cli infer --model hf:second-state/Gemma-2b-it-GGUF:gemma-2b-it-Q4_K_M.gguf --prompt "Explique comment gagner des points sur Hive."`
 
 `./aios-cli hive import-keys priv.key`
-Successfully imported your keys
+#Successfully imported your keys
 
 ````
 Usage: aios-cli hive [OPTIONS] <COMMAND>
@@ -54,10 +55,6 @@ Commands:
   allocate     Pick a tier by choosing how much VRAM you would like to allocate
   points       View your points earned and current multiplier
   help         Print this message or the help of the given subcommand(s)
-
-Options:
-      --verbose
-  -h, --help     Print help
 ````
 
 `./aios-cli hive login`
